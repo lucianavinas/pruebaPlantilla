@@ -1,6 +1,6 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .section-header .section-title {
-    font-size: 22px;
+    font-size: 30px;
   }
   #hero-area .contents {
     padding: 148px 0 48px;
@@ -129,6 +129,9 @@
   }
   #carousel-area .carousel-item .carousel-caption {
     top: 40%;
+  }
+  #carousel-area .carousel-item .carousel-caption h1 {
+    font-size: 22px;
   }
   #carousel-area .carousel-item .carousel-caption h3 {
     font-size: 16px;

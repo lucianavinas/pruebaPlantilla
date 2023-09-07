@@ -2,11 +2,13 @@
    1. IMPORT GOOGLE FONTS
    ========================================================================== */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,700|Open+Sans");
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Poppins:wght@300&display=swap');
+
 /* ==========================================================================
    2. GENERAL
    ========================================================================== */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #546E7A;
   font-size: 14px;
   font-weight: 400;
@@ -22,7 +24,7 @@ p {
   font-size: 14px;
   color: #546E7A;
   line-height: 26px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 0;
 }
 
@@ -38,9 +40,16 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
+h1, h2 {
+  font-family: 'Italiana', serif;
+  font-size: 60px;
+  font-weight: 600;
+  color: #606538;
+}
+
+h3, h4, h5 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
   font-weight: 700;
   color: #263238;
 }
@@ -91,13 +100,18 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .section-header .section-title {
-  font-size: 36px;
+  margin-top: 50px;
   margin-bottom: 20px;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  color: #263238;
+  color: #606538;
   position: relative;
+}
+
+#services h4 {
+  font-size: 20px;
+}
+
+#services h3{
+  font-size: 25px;
 }
 
 .section-header .section-title:before {
@@ -106,7 +120,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   bottom: -8px;
   width: 80px;
   height: 2px;
-  background: #F97794;
+  background: #606538;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   transition: 0.3s;
@@ -116,7 +130,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   font-size: 60px;
   color: rgba(0, 0, 0, 0.07);
   z-index: 2;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   text-transform: capitalize;
   position: absolute;
@@ -134,7 +148,6 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   border-radius: 30px;
   font-weight: 400;
   color: #fff;
-  text-transform: uppercase;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -199,7 +212,6 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .btn-lg {
   padding: 14px 33px;
-  text-transform: uppercase;
   font-size: 16px;
 }
 
@@ -471,11 +483,11 @@ button:focus {
 }
 
 .menu-bg .navbar-nav .nav-link:hover {
-  color: #F97794 !important;
+  color: #606538 !important;
 }
 
 .menu-bg .navbar-nav .active {
-  color: #F97794 !important;
+  color: #606538 !important;
 }
 
 .menu-button:hover {
@@ -496,11 +508,11 @@ button:focus {
 
 .bg-white .menu-button:hover {
   cursor: pointer;
-  color: #F97794;
+  color: #606538;
 }
 
 .bg-white .logo-menu a {
-  color: #F97794;
+  color: #606538;
 }
 
 .bg-white .navbar-nav .nav-link {
@@ -508,11 +520,11 @@ button:focus {
 }
 
 .bg-white .navbar-nav .nav-link:hover {
-  color: #F97794 !important;
+  color: #606538 !important;
 }
 
 .bg-white .navbar-nav .active {
-  color: #F97794 !important;
+  color: #606538 !important;
 }
 
 .close-button {
@@ -520,10 +532,10 @@ button:focus {
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
-  color: #fff;
-  font-size: 14px;
+  color: #373435;
+  font-size: 20px;
   padding: 5px 0px;
-  margin-left: 30px;
+  margin-left: 150px;
   position: relative;
 }
 
@@ -534,7 +546,7 @@ button:focus {
   left: 0;
   width: 0;
   height: 2px;
-  background: #F97794;
+  background: #606538;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   transition: 0.3s;
@@ -552,7 +564,7 @@ button:focus {
 .navbar-expand-md .navbar-nav .nav-link:focus,
 .navbar-expand-md .navbar-nav .nav-link:hover,
 .navbar-expand-md .navbar-nav .nav-link:hover:before {
-  color: #F97794;
+  color: #606538;
 }
 
 .navbar-expand-md .navbar-nav .active > .nav-link,
@@ -560,11 +572,11 @@ button:focus {
 .navbar-expand-md .navbar-nav .nav-link.active:before,
 .navbar-expand-md .navbar-nav .nav-link.open,
 .navbar-expand-md .navbar-nav .open > .nav-link {
-  color: #F97794;
+  color: #606538;
 }
 
 .navbar-expand-md .navbar-toggler {
-  background: #F97794;
+  color: #606538;
   border-radius: 0px;
   margin: 5px;
   cursor: pointer;
@@ -648,7 +660,6 @@ button:focus {
 
 .hero-area .contents .btn {
   margin-top: 40px;
-  text-transform: uppercase;
 }
 
 .hero-area .banner_bottom_btn {
@@ -683,6 +694,7 @@ button:focus {
   height: auto;
   max-width: 100%;
   background-color: white;
+  margin-top: -30px;
 }
 
 /* ==========================================================================
@@ -744,7 +756,6 @@ button:focus {
 
 .hero-area-2 .contents .btn {
   margin: 10px;
-  text-transform: uppercase;
 }
 
 .hero-area-2 .contents .tag-type ul {
@@ -759,7 +770,6 @@ button:focus {
 
 .hero-area-2 .contents .tag-type ul li a {
   color: #fff;
-  text-transform: uppercase;
 }
 
 .hero-area-2 .contents .tag-type ul li:before {
@@ -845,7 +855,6 @@ button:focus {
 
 #video-area .contents .btn {
   margin: 20px 10px;
-  text-transform: uppercase;
 }
 
 #video-area .banner_bottom_btn {
@@ -1028,7 +1037,6 @@ button:focus {
   margin-top: 30px;
   color: #fff;
   font-size: 30px;
-  text-transform: uppercase;
 }
 
 .video-promo .video-promo-content p {
@@ -1066,7 +1074,6 @@ button:focus {
 }
 
 .controls .btn {
-  text-transform: uppercase;
   margin: 2px;
 }
 
@@ -1147,7 +1154,7 @@ button:focus {
   border-radius: 4px;
   border: 1px solid #eaeaea;
   margin: 15px 0;
-  webkit-transition: all 0.3s ease-in-out;
+  /* webkit-transition: all 0.3s ease-in-out; */
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -1664,18 +1671,19 @@ button:focus {
 }
 
 #carousel-area .carousel-item .carousel-caption {
-  top: 15%;
+  top: 30%;
   right: 10%;
-  left: 12%;
+  left: 10%;
   text-shadow: none;
   padding-top: 0;
   padding-bottom: 0;
 }
 
 #carousel-area .carousel-item .carousel-caption h3 {
-  color: #fff;
+  padding-top: 10px;
+  color: #373435;
   font-weight: 500;
-  font-size: 26px;
+  font-size: 30px;
   line-height: 38px;
 }
 
@@ -1752,12 +1760,25 @@ button:focus {
   border-radius: 4px;
 }
 
+#carousel-area .carousel-item .carousel-caption .col-6 {
+  padding-left: 0px;
+}
+
 #slider-area {
   margin-top: -1px;
 }
 
+#slider-area li {
+  font-size: 25px;
+}
+
 #slider-area .btn {
   margin-right: 15px;
+  margin-top: 55px;
+  background-color: #374432;
+  padding: 20px 80px 20px 80px;
+  border-radius: 70px;
+  font-size: 25px;
 }
 
 #slider-area .large_white {
@@ -2193,7 +2214,6 @@ textarea {
   font-weight: 500;
   color: #263238;
   margin-bottom: 30px;
-  text-transform: uppercase;
   position: relative;
 }
 
@@ -2329,13 +2349,13 @@ footer .menu li a:hover {
 }
 
 #copyright .nav-inline .nav-link {
-  color: #546E7A;
+  color: #373435;
   padding: 10px 0;
   margin-left: 10px;
 }
 
 #copyright .nav-inline .nav-link:hover {
-  color: #F97794;
+  color: #606538;
 }
 
 /* ==========================================================================
