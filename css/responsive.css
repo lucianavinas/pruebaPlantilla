@@ -97,7 +97,7 @@
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .controls .btn {
     padding: 10px 24px;
   }
@@ -228,7 +228,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .navbar-toggleable-sm > .container {
     width: 100%;
     padding-left: 30px;
