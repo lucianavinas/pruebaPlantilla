@@ -2,7 +2,7 @@
    1. IMPORT GOOGLE FONTS
    ========================================================================== */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,700|Open+Sans");
-@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Poppins:wght@400&display=swap');
 
 /* ==========================================================================
    2. GENERAL
@@ -45,7 +45,7 @@ h1, h2 {
   font-family: 'Italiana', serif;
   font-size: 60px;
   font-weight: 600;
-  color: #606538;
+  color: #374432;
 }
 
 h3, h4, h5 {
@@ -406,7 +406,7 @@ button:focus {
   font-size: 14px;
   text-align: center;
   border-radius: 30px;
-  background-color: #F97794;
+  background-color: #37422B;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -609,8 +609,8 @@ button:focus {
 }
 
 .navbar-expand-md .navbar-toggler:active {
-  border: 1px solid #F97794;
-  color: #F97794;
+  border: 1px solid rgb(255, 253, 247);
+  color: rgb(255, 253, 247);
 }
 
 /* ==========================================================================
@@ -630,7 +630,7 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #F97794;
+  background: #374432;;
   opacity: 0.7;
 }
 
@@ -880,7 +880,6 @@ button:focus {
    ========================================================================== */
 #about {
   position: relative;
-  background: #f9f9f9;
 }
 
 #about .box-item {
@@ -996,18 +995,31 @@ button:focus {
 }
 
 .call-action {
-  background: #f9f9f9;
+  background-color: black;
+  background-image: url(../img/bg/foto\ videos\ de\ youtube-12.png);
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+
+.call-action .cta-trial h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 28px;
+  letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
 }
 
 .call-action .cta-trial h3 {
-  font-size: 28px;
-  font-weight: 500;
-  margin-bottom: 28px;
-  letter-spacing: 1px;
-}
-
-.call-action .cta-trial p {
   margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+
 }
 
 /* ==========================================================================
@@ -1069,9 +1081,16 @@ button:focus {
 }
 
 .controls .active {
-  color: #F97794 !important;
-  border-color: #F97794;
-  background: transparent;
+  color: rgb(255, 253, 247) !important;
+  border-color: rgb(255, 253, 247);
+  background-color: #374432!important;
+  color: white;
+}
+
+.btngaleria {
+  background-color: transparent!important;
+  border-color: #374432;
+  color: #374432!important;
 }
 
 .controls .btn {
@@ -1152,12 +1171,7 @@ button:focus {
 /* Services Item */
 .item-boxes {
   padding: 30px;
-  border-radius: 4px;
-  border: 1px solid #eaeaea;
   margin: 15px 0;
-  /* webkit-transition: all 0.3s ease-in-out; */
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 
 .item-boxes .icon {
@@ -1184,21 +1198,12 @@ button:focus {
   margin: 0;
 }
 
-.item-boxes:hover {
-  box-shadow: 0px 10px 50px 0px rgba(84, 110, 122, 0.35);
-}
-
 .services-item {
   padding: 30px 15px;
-  background: #fff;
   border-radius: 4px;
   text-align: center;
   margin-bottom: 30px;
   position: relative;
-  transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
 }
 
 .services-item .icon {
@@ -1269,38 +1274,24 @@ button:focus {
   color: #272727;
 }
 
-.services-item .services-content h3 a:hover {
-  color: #F97794;
-}
-
-.services-item:hover {
-  box-shadow: 0px 10px 50px 0px rgba(84, 110, 122, 0.35);
-}
-
-.services-item:hover .icon i {
-  background: transparent;
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-#features .section-subtitle  {
-  margin-left: 30px;
+.section-subtitle {
+  font-weight: 500!important;
 }
 
 #features .btn {
-  margin-top: 15px;
   background-color: #374432;
   padding: 15px 60px 15px 60px;
   border-radius: 70px;
   font-size: 20px;
 }
 
+#features .col-12 {
+  padding-left: 0px!important;
+}
+
 .imgFeatures {
-  width: 600px;
-  border-radius: 125px 0px 125px 0px
+  height: 600px;
+  margin-left: 60px;
 }
 
 .featured-bg {
@@ -1363,6 +1354,17 @@ button:focus {
   color: #F97794;
 }
 
+#about .btn {
+  background-color: #374432;
+  padding: 15px 60px 15px 60px;
+  border-radius: 70px;
+  font-size: 20px;
+}
+
+#about .col-12 {
+  padding-left: 0px!important;
+}
+
 /* ==========================================================================
    Featured Section Start
    ========================================================================== */
@@ -1403,7 +1405,6 @@ button:focus {
 
 .featured-box .featured-content h4 {
   font-size: 18px;
-  font-weight: 500;
   margin-bottom: 10px;
   transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
@@ -1412,9 +1413,15 @@ button:focus {
 }
 
 .featured-box .featured-content p {
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
 
+.nosotros{
+  font-size: 20px!important;
+  line-height: 30px;
+}
 /* ==========================================================================
  Team Section
    ========================================================================== */
@@ -1507,16 +1514,17 @@ button:focus {
   color: #fff;
 }
 
-.testimonial {
-  background: #f9f9f9;
+.linea {
+  border-top: 1px solid black;
+  height: 2px;
+  margin-top: 15px;
 }
 
 .testimonial-item {
   padding: 30px;
   margin: 15px;
-  background: #fff;
-  border-radius: 4px;
-  border: 1px solid rgba(0, 0, 0, 0.06);
+  background: #fffdf7;
+  border-radius: 10px;
 }
 
 .testimonial-item .author {
@@ -1565,7 +1573,7 @@ button:focus {
 }
 
 .testimonial-item .content-inner span {
-  color: #F97794;
+  color: #393A3A;
 }
 
 .owl-pagination {
@@ -1578,7 +1586,6 @@ button:focus {
 .owl-theme .owl-controls .owl-page {
   display: inline-block;
   zoom: 1;
-  *display: inline;
 }
 
 .owl-theme .owl-controls .owl-page span {
@@ -1599,7 +1606,7 @@ button:focus {
 }
 
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
-  background: #F97794;
+  background: #37422B;
 }
 
 /* ==========================================================================
@@ -1608,11 +1615,6 @@ button:focus {
   #pricing {
     background-image: url(../img/pricing/fondo\ nuevo-01.png);
     background-size: 100%;
-    padding-bottom: 168px;
-  }
-
-  .pricing-section h2 {
-    color: #FCEBE7;
   }
 
   .pricing-section p {
@@ -1677,9 +1679,14 @@ button:focus {
   display: block;
   height: auto;
   max-width: 100%;
+  padding: 50px;
   background-color: #FDEBE8;
   margin-top: -30px;
 } 
+
+#img1 {
+  padding: 70px!important;
+}
 
 /* ==========================================================================
   Slider
@@ -2011,7 +2018,7 @@ button:focus {
   font-size: 14px;
   border-radius: 30px;
   border: 1px solid transparent;
-  background: #f5f5f5;
+  background: rgb(255, 253, 247);
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
@@ -2141,15 +2148,6 @@ textarea {
 /* ==========================================================================
   19. Subscribe Style
   ========================================================================== */
-#subscribe {
-  background: url(../img/bg/bg-subs.jpg);
-  position: relative;
-}
-
-.subscribe-form .sub-title {
-  margin-bottom: 30px;
-}
-
 .subscribe-form .sub-title h3 {
   font-size: 30px;
   margin-bottom: 10px;
@@ -2158,10 +2156,9 @@ textarea {
 }
 
 .subscribe-form .form-wrapper {
-  background-color: #ffffff;
-  padding: 58px 40px;
-  border-radius: 4px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 253, 247);
+  padding: 35px 20px;
+  border-radius: 10px;
 }
 
 .subscribe-form .form-wrapper .form-group {
@@ -2173,9 +2170,9 @@ textarea {
   width: 100%;
   font-size: 14px;
   box-shadow: none;
-  color: #848484;
+  color: rgb(255, 253, 247);
   text-transform: capitalize;
-  background: #f7f7f7;
+  background: rgb(255, 253, 247);
   border: 1px solid transparent;
   padding: 15px 30px;
   border-radius: 30px;
@@ -2183,10 +2180,10 @@ textarea {
   background-clip: padding-box;
 }
 
-.subscribe-form .form-wrapper .form-control:focus {
+.form-control:focus {
   color: #212121;
   background-color: #fff;
-  border-color: #F97794;
+  border-color: #374432;
   box-shadow: none;
   outline: 0;
 }
@@ -2209,7 +2206,7 @@ textarea {
 
 #subscribe .sub-item-box .icon-box i {
   font-size: 30px;
-  color: #F97794;
+  color: #374432;
 }
 
 #subscribe .sub-item-box .text-box {
@@ -2352,7 +2349,7 @@ footer .menu li a:hover {
 }
 
 #copyright {
-  background-color: #ffffff;
+  background-color: #93C193;
   padding: 20px 0 10px;
   border-top: 1px solid #eaeaea;
   color: #546E7A;
