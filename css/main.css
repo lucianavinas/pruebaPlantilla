@@ -724,6 +724,14 @@ button:focus {
       display: block;
       margin: 0 auto; /* Centra la imagen en dispositivos móviles */
   }
+
+  #nosotros{
+    padding-top: 0px!important;
+  }
+
+  #navbarCollapse {
+    background-color: #fff!important;
+  }
 }
 
 .imgCarousel {
@@ -1537,6 +1545,10 @@ button:focus {
 .nosotros{
   font-size: 26px!important;
   font-weight: 500!important;
+}
+
+#nosotros{
+  padding-top: 200px;
 }
 /* ==========================================================================
  Team Section
