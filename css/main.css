@@ -732,6 +732,13 @@ button:focus {
   #navbarCollapse {
     background-color: #fff!important;
   }
+  #dto{
+    padding: 0px!important;;
+  }
+}
+
+#dto{
+  padding: 100px;
 }
 
 .imgCarousel {
@@ -1038,6 +1045,7 @@ button:focus {
   /* Cambia el diseño a apilado en dispositivos móviles */
   #faqAccordion .btn{
     font-size: 16px!important;
+    padding-left: 0px!important;
   }
 
   #faqAccordion p{
