@@ -7,7 +7,8 @@
     <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Grayrids">
-    <title>Essence - Bootstrap 4 Template</title>
+    <link rel="icon" type="image/x-icon" href="img/icons/fjgfh-04.png">
+    <title>Plantastic Club - Plan Especialista</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -76,12 +77,60 @@
             </header>
             <!-- Header Section End --> 
 
+   <!-- Header Section Start -->
+   <header id="slider-area">  
+    <nav class="navbar navbar-expand-md fixed-top scrolling-navbar bg-transparent">
+      <div class="container">          
+        <img class="navbar-brand" src="img/logo home-03.png" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="lni-menu"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto w-100 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#pricing">Boxes</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#about">Nosotros</a>
+            </li>                            
+          </ul>              
+        </div>
+      </div>
+    </nav> 
+  </header>
+  <!-- Header Section End --> 
+
+  <div class="hero" style="background-color: #FDCB79!important;">
+    <div class="row">
+        <!-- Columna para el texto en la mitad de la pantalla -->
+        <div class="col-md-6 hero-text">
+          <h1 class="wow fadeInLeft" data-wow-delay="0.4s">Plan Especialista</h1>
+          <h3 class="wow fadeInLeft" data-wow-delay="0.5s"><b style="color: #373435!important; font-size: 35px;">MENSUAL POR 12 MESES</b></h3>
+            <h3 class="wow fadeInLeft textodetalle" data-wow-delay="0.6s">Una planta de interior<br>
+              Una maceta artesanal<br>
+              Una herramienta de jardinería<br>
+              <b>Contenido exclusivo de Youtube!</b>
+          </h3>
+          <div class="price wow fadeInLeft" data-wow-delay="0.8s"><h2 style="color: #374432!important; padding-left: 60px; padding-top: 30px;">$1.899</h2></div>
+          <a href="#" class="btn btn-lg btn-common btn-effect wow fadeInLeft" data-wow-delay="0.9s">Comprar</a>
+        </div>
+
+        <!-- Columna para la imagen en la mitad de la pantalla -->
+        <div class="col-md-6">
+          <img class="img-fluid hero-image" src="img/detalle/box 3 bian nuevo.png" alt="">
+        </div>
+    </div>
+</div>
+
+
 
 <!-- Services Section Start -->
 <section id="services" class="section">
     <div class="container">
       <div class="section-header">
-        <h4 class="section-subtitle">A UN PASO DE LA FELICIDAD</h4>
         <h2>Detalle del Plan Especialista</h2>
         <h3 class="section-subtitle">Tus nuevos aliados favoritos</h3>
       </div>
@@ -127,10 +176,10 @@
 
 
       <!-- Features Section Start -->
- <section id="about" class="section">
+ <section id="about" class="section" style="background-color: #FFE6C2 !important;">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-xs-12" style="padding-top: 100px;">
+        <div class="col-lg-6 col-md-6 col-xs-12">
       <div class="section-header">          
         <h2 class="text-left" style="font-size: 50px;">Best Seller de Plantastic</h2>
       </div>
@@ -150,7 +199,7 @@
           </div>
         </div>
         <div class="col-6">
-          <img class="imgFeatures" src="img/detalle/foto best seller.jfif" alt="">
+          <img class="imgFeatures" src="img/detalle/foto detalle best-03.png" alt="">
         </div>
   
       </div>
@@ -159,11 +208,26 @@
   </section>
   <!-- Features Section End -->  
 
+  <!-- Call to Action Start -->
+  <section class="descuento section" >
+    <div class="container" style="padding: 100px;">
+      <div class="row justify-content-center">
+        <div class="col-10">
+          <div class="cta-trial text-center" style="margin-bottom: 40px;">
+            <h2>En el mes de Marzo</h2>
+            <h2 style="font-size: 35px;">20% de descuento<br>
+              por el día de la naturaleza</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Call to Action End -->
+
    <!-- Start Pricing Table Section -->
    <div id="pricing" class="section pricing-section">
     <div class="container">
       <div class="section-header">          
-        <p class="section-subtitle" style="font-size: 14px;">DEJATE TENTAR</p>
         <h2 >Visitá todas nuestras propuestas</h2>
         <p class="section-subtitle">Te proponemos dos opciones más para que elijas<br>
             la que más se adapta a tus espacios</p>
@@ -175,13 +239,8 @@
             <div class="pricing-details">
                 <img id="img1" class="imgPricing" src="img/pricing/box 1 bian nuevo.png" alt="">
               <h2>Plan Aficionado</h2>
-              <p>MENSUAL POR 6 MESES</p>
-              <p>Incluye</p>
-              <ul>
-                <li>Planta de interior</li>
-                <li>Maceta artesanal</li>
-              </ul>
-              <div class="price" style="margin-top: 65px;"><h2>$2.300</h2></div>
+              <p>MENSUAL POR 3 MESES</p>
+              <div class="price" ><h2>$2.300</h2></div>
             </div>
             <div class="plan-button">
               <a href="paginadetalle.html" class="btn btn-lg btn-common btn-effect wow">Suscribirse</a>
@@ -195,13 +254,7 @@
                 <img id="img2" class="imgPricing" src="img/pricing/box 2 bian nuevo.png" alt="">
               <h2>Plan Profesional</h2>
               <p>MENSUAL POR 6 MESES</p>
-              <p>Incluye</p>
-              <ul>
-                <li>Planta de interior</li>
-                <li>Maceta artesanal</li>
-                <li>Herramienta de jardinería</li>
-              </ul>
-              <div class="price" style="margin-top: 32px;"><h2>$2.000</h2></div>
+              <div class="price" ><h2>$2.000</h2></div>
             </div>
             <div class="plan-button">
               <a href="paginadetalle.html" class="btn btn-lg btn-common btn-effect wow">Suscribirse</a>
