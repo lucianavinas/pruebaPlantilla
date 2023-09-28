@@ -1029,7 +1029,7 @@ button:focus {
 @media (max-width: 768px) {
   /* Cambia el diseño a apilado en dispositivos móviles */
   #faqAccordion .btn{
-    font-size: 20px!important;
+    font-size: 16px!important;
   }
 
   #faqAccordion p{
@@ -1039,15 +1039,31 @@ button:focus {
     display: none;
   }
   .imgFeatures {
-    margin-left: 15px!important;
+    margin-left: -15px!important;
   }
   .imgDetalle {
-    margin-left: -20px!important;
+    margin-left: -55px!important;
   }
   .imgDetras{
     height: 500px;
-    margin-left: -65px!important;
+    margin-left: -95px!important;
   }
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+}
+
+.card-header{
+  background-color: transparent;
+  border: none;
+}
+
+
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 
@@ -1084,6 +1100,9 @@ button:focus {
   }
   .call-action.section h2{
     font-size: 40px!important;
+  }
+  .call-action {
+  background-size: cover;
   }
 }
 
