@@ -1026,6 +1026,31 @@ button:focus {
   display: none;
 }
 
+@media (max-width: 768px) {
+  /* Cambia el diseño a apilado en dispositivos móviles */
+  #faqAccordion .btn{
+    font-size: 20px!important;
+  }
+
+  #faqAccordion p{
+    font-size: 18px!important;
+  }
+  #faqAccordion #mas{
+    display: none;
+  }
+  .imgFeatures {
+    margin-left: 15px!important;
+  }
+  .imgDetalle {
+    margin-left: -20px!important;
+  }
+  .imgDetras{
+    height: 500px;
+    margin-left: -65px!important;
+  }
+}
+
+
 /* ==========================================================================
     call to action
    ========================================================================== */
@@ -1047,10 +1072,21 @@ button:focus {
 
 .call-action {
   background-color: black;
-  background-image: url(../img/bg/foto\ videos\ de\ youtube-12.png);
+  background-image: url(../img/bg/foto\ youtube-08.png);
   background-repeat: no-repeat;
   background-size:100%;
 }
+
+@media (max-width: 768px) {
+  /* Cambia el diseño a apilado en dispositivos móviles */
+  .call-action.section {
+    padding: 0px!important;
+  }
+  .call-action.section h2{
+    font-size: 40px!important;
+  }
+}
+
 
 .call-action .cta-trial h2 {
   font-size: 50px;
@@ -1341,6 +1377,16 @@ button:focus {
 }
 
 .imgFeatures {
+  height: 600px;
+  margin-left: 60px;
+}
+
+.imgDetalle {
+  height: 600px;
+  margin-left: 60px;
+}
+
+.imgDetras {
   height: 600px;
   margin-left: 60px;
 }
